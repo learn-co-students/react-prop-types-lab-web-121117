@@ -7,7 +7,7 @@ class Product extends React.Component{
       <div>
         <h1>{this.props.name}</h1>
         <h3>{this.props.producer}</h3>
-        <h3>{this.props.hasWatermark}</h3>
+        <h3>{this.props.hasWatermark ? 'Has a Watermark' : 'Doesn\'t have a Watermark'}</h3>
         <h3>{this.props.color}</h3>
         <h3>{this.props.weight}</h3>
       </div>
