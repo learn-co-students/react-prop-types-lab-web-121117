@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+
 import Product from './components/Product';
 
 ReactDOM.render(
@@ -9,6 +10,7 @@ ReactDOM.render(
     producer="PaperCo"
     color="white"
     weight={210}
+    weight="notanumber"
   />,
   document.getElementById('global')
 );
